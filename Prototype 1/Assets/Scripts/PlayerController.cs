@@ -10,7 +10,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-    // Update is called once per frame
+    // Update is called once per sec
     void Update()
     {
         //We'll move the vehicle forward 
