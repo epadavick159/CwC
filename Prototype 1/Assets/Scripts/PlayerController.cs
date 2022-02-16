@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
     public Camera mainCamera;
     public Camera inCarCamera;
     public KeyCode switchKey;
+    
     void Start()
     {
         
@@ -21,8 +22,8 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //getting user input
-        horizontalInput = Input.GetAxis("Horizontal");
-        forwardInput = Input.GetAxis("Vertical");
+        horizontalInput = Input.GetAxis("Horizontal1");
+        forwardInput = Input.GetAxis("Vertical1");
         
         //moves vehicle forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed* forwardInput);
