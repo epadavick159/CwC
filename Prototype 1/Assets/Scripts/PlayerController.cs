@@ -1,3 +1,5 @@
+//Emily Padavick, PlayerController, 2.17.2022, uses user input to manage the direction of motion of the player1 vehicle with WASD keys and camera switch with tab for camera switch
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -22,14 +24,15 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         //getting user input
-        horizontalInput = Input.GetAxis("Horizontal1");
-        forwardInput = Input.GetAxis("Vertical1");
+        horizontalInput = Input.GetAxis("Horizontal2");
+        forwardInput = Input.GetAxis("Vertical2");
         
         //moves vehicle forward
         transform.Translate(Vector3.forward * Time.deltaTime * speed* forwardInput);
         //rotates vehicle
         transform.Rotate(Vector3.up, Time.deltaTime * turnSpeed * horizontalInput);
 
+        //switches the perspective of the camera
         if (Input.GetKeyDown(switchKey))
         {
             mainCamera.enabled = !mainCamera.enabled;
