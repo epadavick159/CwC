@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    //establishing all variables
+    //declaring all variables
     public float horizontalInput;
     public float speed = 10.0f;
     public float range = 15.0f;
     public GameObject prefab;
+
     // Start is called before the first frame update
     void Start()
     {
