@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
         //when the user pressed the space key, the food object will be launched forward
         if (Input.GetKeyDown(KeyCode.Space))
         {
+  
             Instantiate(prefab, transform.position, prefab.transform.rotation);
         }
         //moves the character left or right depending on the use of a left or right arrow key
