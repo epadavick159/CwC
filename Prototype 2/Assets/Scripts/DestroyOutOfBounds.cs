@@ -8,12 +8,13 @@ public class DestroyOutOfBounds : MonoBehaviour
     private float topRange = 30.0f;
     private float bottomRange = -10.0f;
     private float sideRange = 25.0f;
+    private GameManager gameManager;
     
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -25,7 +26,8 @@ public class DestroyOutOfBounds : MonoBehaviour
             Destroy(gameObject);
             if(transform.position.z < bottomRange || transform.position.x > sideRange || transform.position.x < -sideRange)
             {
-                Debug.Log("Game Over :(");
+                gameManager.AddLives(-1);
+                Destroy(gameObject);
             }
 
         }
