@@ -1,3 +1,8 @@
+//Emily Padavick
+//March 15 2022
+//GVR
+//uses player controls to move the player's character forward, back, left, and right within a designated space on the screen
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

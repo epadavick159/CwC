@@ -5701,6 +5701,7 @@ GameObject:
   - component: {fileID: 632073972255026666}
   - component: {fileID: 4681441826070276594}
   - component: {fileID: -7450376255433167180}
+  - component: {fileID: 801144394477700503}
   m_Layer: 0
   m_Name: Dog_GermanShepherd_01
   m_TagString: Animal
@@ -5828,6 +5829,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d15a1ffd8825e40aea8348b6ac12d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &801144394477700503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8023413031843392867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70a403616fd3b5418008c8dddeb6b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungerSlider: {fileID: 0}
+  amountToBeFed: 2
 --- !u!1 &8023413031843394843
 GameObject:
   m_ObjectHideFlags: 0

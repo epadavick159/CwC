@@ -1,3 +1,8 @@
+//Emily Padavick
+//March 15 2022
+//GVR
+//checks collisions between gameObjects and destroys both objects; also removes lives when error made (i.e. animal hits player)
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,9 +33,8 @@ public class CollisionDetection : MonoBehaviour
         }
         else if (other.CompareTag("Animal"))
         {
-            gameManager.AddScore(5);
+            other.GetComponent<AnimalHunger>().FeedAnimal(1);
             Destroy(gameObject);
-            Destroy(other.gameObject);
         }
         else
         {

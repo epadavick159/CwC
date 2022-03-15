@@ -1,3 +1,8 @@
+//Emily Padavick
+//March 15 2022
+//GVR
+//removes a GameObject when it goes out of the desegnated boundary of the gameview
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

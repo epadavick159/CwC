@@ -1,3 +1,8 @@
+//Emily Padavick
+//March 15 2022
+//GVR
+//spawns animals at random locations along the back, left, and right sides of the game feild
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -1,3 +1,8 @@
+//Emily Padavick
+//March 15 2022
+//GVR
+//evaluates and displays the player's score and amount of lives left in the game
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;

@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 9127230565964748962}
   - component: {fileID: 2066503922031610798}
   - component: {fileID: 2328047776859833173}
+  - component: {fileID: 5751501776089342332}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Animal
@@ -172,6 +173,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d15a1ffd8825e40aea8348b6ac12d1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5751501776089342332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1198555164420869664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b70a403616fd3b5418008c8dddeb6b77, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hungerSlider: {fileID: 0}
+  amountToBeFed: 3
 --- !u!1 &1198555164420870156
 GameObject:
   m_ObjectHideFlags: 0
