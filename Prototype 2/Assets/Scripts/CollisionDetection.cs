@@ -26,20 +26,23 @@ public class CollisionDetection : MonoBehaviour
     //when two objects collide, they will destroy each other (food and animal)
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.CompareTag("Player"))
         {
             gameManager.AddLives(-1);
+            
             Destroy(gameObject);
         }
-        else if (other.CompareTag("Animal"))
+        else if (other.CompareTag("food"))
         {
             other.GetComponent<AnimalHunger>().FeedAnimal(1);
             Destroy(gameObject);
         }
-        else
+       else
         {
+            
             Destroy(gameObject);
             Destroy(other.gameObject);
-        }
+        } 
     }
 }

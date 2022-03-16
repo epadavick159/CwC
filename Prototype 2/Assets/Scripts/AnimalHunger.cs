@@ -38,6 +38,7 @@ public class AnimalHunger : MonoBehaviour
         currentFedAmount += amount;
         hungerSlider.fillRect.gameObject.SetActive(true);
         hungerSlider.value = currentFedAmount;
+        Debug.Log(currentFedAmount);
 
         if(currentFedAmount >= amountToBeFed)
         {

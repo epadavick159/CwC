@@ -950,9 +950,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 801144394477700503, guid: 4076936621c0f424e9eeb1672c4fb488, type: 3}
-      propertyPath: hungerSlider
-      value: 
+    - target: {fileID: 1499197844875842699, guid: 4076936621c0f424e9eeb1672c4fb488, type: 3}
+      propertyPath: speed
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8023413031843392867, guid: 4076936621c0f424e9eeb1672c4fb488, type: 3}
       propertyPath: m_Name
@@ -1000,6 +1000,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8023413031843570449, guid: 4076936621c0f424e9eeb1672c4fb488, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8899065641243409493, guid: 4076936621c0f424e9eeb1672c4fb488, type: 3}
+      propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1063,10 +1067,6 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5406112010383117663, guid: c733183fd1739864f925d2de1318d781, type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c733183fd1739864f925d2de1318d781, type: 3}
 --- !u!1001 &8916324211010357707
@@ -1124,9 +1124,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Dog_SaintBernard_01
       objectReference: {fileID: 0}
-    - target: {fileID: 5751501776089342332, guid: 08da8e09a91277f4b8818803e58e3a55, type: 3}
-      propertyPath: hungerSlider
-      value: 
+    - target: {fileID: 3004046105679497452, guid: 08da8e09a91277f4b8818803e58e3a55, type: 3}
+      propertyPath: speed
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3497660950355937511, guid: 08da8e09a91277f4b8818803e58e3a55, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 08da8e09a91277f4b8818803e58e3a55, type: 3}
