@@ -13,9 +13,11 @@ public class AnimalHunger : MonoBehaviour
     //declaring variables
     public Slider hungerSlider;
     public int amountToBeFed;
+   
 
     private int currentFedAmount = 0;
     private GameManager gameManager;
+    
 
     // Start is called before the first frame update
     void Start()

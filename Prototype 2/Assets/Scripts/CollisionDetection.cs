@@ -11,6 +11,8 @@ public class CollisionDetection : MonoBehaviour
 {
 
     private GameManager gameManager;
+    public GameObject food;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,7 +38,7 @@ public class CollisionDetection : MonoBehaviour
         else if (other.CompareTag("food"))
         {
             other.GetComponent<AnimalHunger>().FeedAnimal(1);
-            Destroy(gameObject);
+            Destroy(food);
         }
        else
         {
