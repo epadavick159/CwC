@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/Create_with_VR_Starter_Scene.unity
+- path: Assets/Scenes/Em's Room.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
